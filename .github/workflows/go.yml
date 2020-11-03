@@ -34,30 +34,8 @@ jobs:
 
     - name: Build
       run: |
-            set GOPATH=%~dp0
-
-            cd %~dp0
-
-            go fmt ./src/...
-
-            set version=0.13.0
-
-            echo.
-
-            echo 开始编译Windows 32位系统的程序
-
-            set GOOS=windows
-
-            set GOARCH=386
-
-            echo.
-
-            echo 开始编译服务端...
-
-            go build -o bin/%GOOS%/%version%/frps.exe ./src/cmd/frps
-
-            echo 编译完成
-            #make build
+            make build
+            ls -l
             #go build -v .
 
     - name: Test
