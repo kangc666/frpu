@@ -38,7 +38,8 @@ jobs:
 
     - name: Build
       run: |
-            # export GOPATH=./
+            export GOPATH=/home/runner/work/frpu/frpu
+            echo 位置:
             pwd
             make build
             ls -l
