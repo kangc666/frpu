@@ -25,6 +25,9 @@ jobs:
       run: |
         sudo apt-get install golang-go
         go version
+        #github.com/docopt/docopt-go
+        go get -u github.com/docopt/docopt-go
+        go get -u github.com/vaughan0/go-ini
         echo Starting.....
        # go get -v -t -d ./...
        # if [ -f Gopkg.toml ]; then
