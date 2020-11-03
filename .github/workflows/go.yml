@@ -25,7 +25,7 @@ jobs:
       run: |
         sudo apt-get install golang-go
         go version
-        export GOPATH=/home/runner/work/frpu/frpu/src
+        export GOPATH=/home/runner/work/frpu/frpu/
         #github.com/docopt/docopt-go
         go get -u github.com/docopt/docopt-go
         go get -u github.com/vaughan0/go-ini
