@@ -42,9 +42,9 @@ jobs:
             
             echo 位置:
             pwd
-            make build
+            #make build
             ls -l
-            #go build -v .
+            go build -v .
 
     - name: Test
       run: go test -v .
