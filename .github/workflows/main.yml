@@ -33,5 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           start make.bat
+          build
           echo Add other actions to build,
           echo test, and deploy your project.
