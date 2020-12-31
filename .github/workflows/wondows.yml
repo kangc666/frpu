@@ -84,7 +84,7 @@ jobs:
 
        echo 编译完成
 
-      # echo.
+       # echo.
 
        echo 开始编译Linux arm系统的程序
 
@@ -148,7 +148,7 @@ jobs:
 
        echo 编译完成
 
-      # echo.
+       # echo.
 
        echo 开始编译客户端...
 
@@ -156,7 +156,7 @@ jobs:
       
        echo 编译完成
 
-      # echo.
+       # echo.
 
        echo 开始编译MAC 32位系统的程序
 
@@ -180,7 +180,7 @@ jobs:
 
        echo 编译完成
 
-      # echo.
+       #echo.
 
        echo ---end---
 
