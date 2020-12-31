@@ -36,7 +36,7 @@ jobs:
 
        set version=0.13.0
 
-       echo.
+       #echo.
 
        echo 开始编译Windows 32位系统的程序
 
@@ -44,7 +44,7 @@ jobs:
 
        set GOARCH=386
 
-       echo.
+       #echo.
 
        echo 开始编译服务端...
 
@@ -52,7 +52,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译客户端...
 
@@ -60,7 +60,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译Linux 32位系统的程序
 
@@ -68,7 +68,7 @@ jobs:
 
        set GOARCH=386
  
-       echo.
+       #echo.
 
        echo 开始编译服务端...
 
@@ -76,7 +76,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译客户端...
 
@@ -84,7 +84,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+      # echo.
 
        echo 开始编译Linux arm系统的程序
 
@@ -92,7 +92,7 @@ jobs:
 
        set GOARCH=arm
  
-       echo.
+       #echo.
 
        echo 开始编译服务端...
 
@@ -100,7 +100,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译客户端...
 
@@ -108,7 +108,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译Linux mips系统的程序
 
@@ -116,7 +116,7 @@ jobs:
 
        set GOARCH=mips
 
-       echo.
+       #echo.
 
        echo 开始编译服务端...
 
@@ -124,7 +124,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译客户端...
 
@@ -132,7 +132,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译Linux mipsle系统的程序
 
@@ -140,7 +140,7 @@ jobs:
 
        set GOARCH=mipsle
 
-       echo.
+       #echo.
 
        echo 开始编译服务端...
 
@@ -148,7 +148,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+      # echo.
 
        echo 开始编译客户端...
 
@@ -156,7 +156,7 @@ jobs:
       
        echo 编译完成
 
-       echo.
+      # echo.
 
        echo 开始编译MAC 32位系统的程序
 
@@ -164,7 +164,7 @@ jobs:
 
        set GOARCH=386
 
-       echo.
+       #echo.
 
        echo 开始编译服务端...
 
@@ -172,7 +172,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+       #echo.
 
        echo 开始编译客户端...
 
@@ -180,7 +180,7 @@ jobs:
 
        echo 编译完成
 
-       echo.
+      # echo.
 
        echo ---end---
 
