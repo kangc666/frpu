@@ -28,9 +28,9 @@ jobs:
        #start make.bat
        #go build -v ./...
 
-       set GOPATH=%~dp0
+       #set GOPATH=%~dp0
 
-       cd %~dp0
+       #cd %~dp0
 
        go fmt ./src/...
 
