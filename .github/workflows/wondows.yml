@@ -27,7 +27,6 @@ jobs:
       run: |
        #start make.bat
        #go build -v ./...
-       @echo off
 
        set GOPATH=%~dp0
 
