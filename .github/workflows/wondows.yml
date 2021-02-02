@@ -29,21 +29,21 @@ jobs:
        #start make.bat
        #go build -v ./...
 
-       set GOPATH=D:\a\frpu\frpu
+       export GOPATH=D:\a\frpu\frpu
 
        #cd %~dp0
 
        go fmt ./src/...
 
-       set version=0.13.0
+       export version=0.13.0
 
        #echo.
 
        echo 开始编译Windows 32位系统的程序
 
-       set GOOS=windows
+       export GOOS=windows
 
-       set GOARCH=386
+       export GOARCH=386
 
        #echo.
 
@@ -65,9 +65,9 @@ jobs:
 
        echo 开始编译Linux 32位系统的程序
 
-       set GOOS=linux
+       export GOOS=linux
 
-       set GOARCH=386
+       export GOARCH=386
  
        #echo.
 
@@ -89,9 +89,9 @@ jobs:
 
        echo 开始编译Linux arm系统的程序
 
-       set GOOS=linux
+       export GOOS=linux
 
-       set GOARCH=arm
+       export GOARCH=arm
  
        #echo.
 
@@ -113,9 +113,9 @@ jobs:
 
        echo 开始编译Linux mips系统的程序
 
-       set GOOS=linux
+       export GOOS=linux
 
-       set GOARCH=mips
+       export GOARCH=mips
 
        #echo.
 
@@ -137,9 +137,9 @@ jobs:
 
        echo 开始编译Linux mipsle系统的程序
 
-       set GOOS=linux
+       export GOOS=linux
 
-       set GOARCH=mipsle
+       export GOARCH=mipsle
 
        #echo.
 
@@ -161,9 +161,9 @@ jobs:
 
        echo 开始编译MAC 32位系统的程序
 
-       set GOOS=darwin
+       export GOOS=darwin
 
-       set GOARCH=386
+       export GOARCH=386
 
        #echo.
 
