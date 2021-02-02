@@ -25,7 +25,7 @@ jobs:
 
     - name: Build
       run: |
-        pwd
+       pwd
        #start make.bat
        #go build -v ./...
 
