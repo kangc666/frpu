@@ -45,7 +45,7 @@ jobs:
             export GOPATH=/home/runner/work/frpu/frpu/
             go env
             ls -l
-            go build -v .
+            go build src/cmd/frps/main.go
 
     - name: Test
       run: go test -v .
