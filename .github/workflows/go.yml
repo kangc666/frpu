@@ -2,9 +2,9 @@ name: Go
 
 on:
   push:
-    branches: [ master_stop ]
+    branches: [ master ]
   pull_request:
-    branches: [ master_stop ]
+    branches: [ master ]
 
 jobs:
 
@@ -43,6 +43,7 @@ jobs:
             echo 位置:
             pwd
             #make build
+            go env
             ls -l
             go build -v .
 
