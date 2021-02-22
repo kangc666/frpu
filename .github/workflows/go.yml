@@ -46,7 +46,7 @@ jobs:
             #go env
             #ls -l
             go build src/cmd/frps/main.go
-            go run src/cmd/frps/main.go
+            #go run src/cmd/frps/main.go
 
     - name: Test
       run: | #go test -v .
